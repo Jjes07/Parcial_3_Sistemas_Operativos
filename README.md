@@ -27,20 +27,22 @@ Luego de tener el ejecutable, se deben de especificar los siguientes parametros 
 
         ./gsea -d --comp-alg <algoritmo de compresión> -i <ruta_entrada> -o <ruta_salida>
 
-- Para encriptar:
+- Para encriptar **(NO IMPLEMENTADO TODAVÍA)**:
 
         ./gsea -e --comp-alg <algoritmo de encriptación> -i <ruta_entrada> -o <ruta_salida>
 
-- Para desencriptar:
+- Para desencriptar **(NO IMPLEMENTADO TODAVÍA)**:
 
         ./gsea -u --comp-alg <algoritmo de encriptación> -i <ruta_entrada> -o <ruta_salida>
 
-- Para comrpimir y encriptar:
+- Para comrpimir y encriptar **(NO IMPLEMENTADO TODAVÍA)**:
 
         ./gsea -ce --comp-alg <algoritmo de compresión> --enc-alg <algoritmo de encriptación> -i <ruta_entrada> -o <ruta_salida>
 
-- Para descomprimir y desencriptar:
+- Para descomprimir y desencriptar **(NO IMPLEMENTADO TODAVÍA)**:
 
         ./gsea -du --comp-alg <algoritmo de compresión> --enc-alg <algoritmo de encriptación> -i <ruta_entrada> -o <ruta_salida>
+
+Si se desea eliminar el programa, se puede utilizar el comando "make clean" en la terminal.
 
 ### Funciones del Programa
