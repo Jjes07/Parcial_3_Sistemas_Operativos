@@ -43,6 +43,8 @@ Luego de tener el ejecutable, se deben de especificar los siguientes parametros 
 
         ./gsea -du --comp-alg <algoritmo de compresión> --enc-alg <algoritmo de encriptación> -i <ruta_entrada> -o <ruta_salida>
 
+Nota: hasta el momento, el único algoritmo de compresión/descompresión válido es el `lzw`. 
+
 Si se desea eliminar el programa, se puede utilizar el comando "make clean" en la terminal.
 
 ### Funciones del Programa
